@@ -1,0 +1,91 @@
+body{
+  background: #f2ebe8;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-between;
+}
+.header-h1{
+  display: flex;
+  padding-left: 10px;
+  color: #0180d1;
+}
+.header-backhome{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0 10px;
+}
+.main-section01{
+  margin: 2px;
+  padding:3px;
+  display: flex;
+}
+
+#box{
+  display: grid;
+  padding: 2px;
+  width: 450px;
+  height: 100%;
+  margin: 0px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#box>img {
+  width: 100%;
+}
+
+#box>div {
+  display: flex;
+}
+
+#box>div>img {
+  flex: 1;
+  border: 2px solid transparent;
+}
+#box>div>img.active {
+  border-color: orange;
+}
+.main-section01-02{
+  font-size: 30px;
+  order: 1;
+}
+.main-section01-02-ul{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+}
+.main-section01-02-ul li{
+  flex-grow: 1;
+  list-style-image: url("../assets/images/heartE1.png");
+}
+.main-section02{
+  margin: 5px;
+  padding:5px;
+  font-size: 20px;
+  border: rgb(116, 145, 224) 1px solid;
+  border-radius: 10px;
+  flex-direction: row;
+}
+.m-s-03-img{
+  padding: 5px;
+  float: left;
+}
+.page-footer{
+  height: 20px;
+  text-align: center;
+}
+.page-footer h4{
+  margin: 0;
+  padding: 2px;
+}
+.page-footer p{
+  margin: 0;
+  padding: 2px 10px 30px 10px;
+}
+@media screen and (max-width: 768px) {
+ .main-section01{
+  flex-direction: column;
+ }
+}
