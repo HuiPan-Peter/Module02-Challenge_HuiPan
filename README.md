@@ -2,11 +2,16 @@
 Peter's Portfolio Website
 ```
 Website Prototype：Microsoft Designer online https://designer.microsoft.com/
-Development Tool: MS VS Code Version:1.81.0;
+Development Tool: MS VS Code Version:1.81.0; UI Tool: Adobe Photoshop CC;
 Third-party Plug-ins: jquery-3.6.4.js; echarts.min.js; 
 JS Animation: echarts.apache.org & tedu.cn: demo code;
 Deployment Platform: GitHub;
 ```
+WebSite Prototype:
+![WebDesign-01](https://github.com/HuiPan-Peter/Module02-Challenge_HuiPan/assets/132380239/add53f28-ee4d-4e37-8861-bb3c448a37b5)
+![WebDesign-02](https://github.com/HuiPan-Peter/Module02-Challenge_HuiPan/assets/132380239/eab800ea-ccff-4b0f-af1e-2b4af0104d4c)
+![WebDesign-03](https://github.com/HuiPan-Peter/Module02-Challenge_HuiPan/assets/132380239/218d6a63-f667-4b33-bcff-ad4a9f34ecba)
+
 ## User Story
 ```
 AS AN employer
